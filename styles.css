@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffefd5;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+#salon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cat {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+#cat img {
+    width: 100%;
+    height: 100%;
+}
+
+.accessory {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#controls {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#controls h2 {
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #fff;
+    border: 2px solid #ff69b4;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #ffb6c1;
+}
